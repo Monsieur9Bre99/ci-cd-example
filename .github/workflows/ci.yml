@@ -1,6 +1,8 @@
 name: CI Pipeline
 # This workflow is triggered by pull requests
 on:
+  push:
+    branches: [ dev ]
   pull_request:
     branches: [ dev ]
 jobs:
